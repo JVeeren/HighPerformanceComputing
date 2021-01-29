@@ -1,0 +1,6 @@
+gcc -o openmp -fopenmp MatUtil.c APSP.c
+
+./openmp 1000 
+
+here 1000 is input size of array.
+seg fault for >1000
